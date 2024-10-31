@@ -6,7 +6,7 @@ player_pos = {
     "t": 0
 }
 
-class Pos:
+class Place:
     def __init__(self, x=0, y=0, z=0, q=0, t=0, item=None, creature=None, message=None, name=None):
         #pos
         self.x    = x
