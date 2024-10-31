@@ -3,7 +3,7 @@ player_pos = {
     "y": 0,
     "z": 0,
     "q": 0,
-    "t": 0
+    "t": 1 #zero to represent something that is not an event
 }
 
 class Place:
@@ -20,3 +20,6 @@ class Place:
         self.creature    = creature
         self.message     = message
         self.name        = name
+
+places = []
+places.append(Place(x=10, y=10, z=10, q=10, t=10, message="2"))
