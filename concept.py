@@ -23,3 +23,14 @@ class Place:
 
 places = []
 places.append(Place(x=10, y=10, z=10, q=10, t=10, message="2"))
+
+##################
+# main game loop #
+##################
+game_running = True
+while(game_running):
+    print("your position:")
+    #do I need to use keys?
+    print(player_pos[0], player_pos[1], player_pos[2], player_pos[3])
+    print("current time is:")
+    print(player[4])
