@@ -34,4 +34,4 @@ while(game_running):
     #do I need to use keys?
     print(player_pos[0], player_pos[1], player_pos[2], player_pos[3])
     print("current time is:")
-    print(player[4])
+    print(player_pos[4])
