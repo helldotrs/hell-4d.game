@@ -7,7 +7,7 @@ player_pos = {
 }
 
 class Place:
-    def __init__(self, x=0, y=0, z=0, q=0, t=0, item=None, creature=None, message=None, name=None):
+    def __init__(self, x=0, y=0, z=0, q=0, t=0, item=None, creature=None, message=None, name=None, region=None):
         #pos
         self.x    = x
         self.y    = y
@@ -20,6 +20,7 @@ class Place:
         self.creature    = creature
         self.message     = message
         self.name        = name
+        self.region      = region
 
 places = []
 places.append(Place(x=10, y=10, z=10, q=10, t=10, message="2"))
