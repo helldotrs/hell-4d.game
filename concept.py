@@ -35,3 +35,4 @@ while(game_running):
     print(player_pos[0], player_pos[1], player_pos[2], player_pos[3])
     print("current time is:")
     print(player_pos[4])
+    next_move = input("next move:")
