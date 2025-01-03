@@ -26,6 +26,12 @@ places = []
 places.append(Place(x=10, y=10, z=10, q=10, t=10, message="2"))
 
 ##################
+# functions.     #
+########
+def validate_move(x)
+    pass
+
+##################
 # main game loop #
 ##################
 game_running = True
@@ -35,4 +41,5 @@ while(game_running):
     print(player_pos[0], player_pos[1], player_pos[2], player_pos[3])
     print("current time is:")
     print(player_pos[4])
+
     next_move = input("next move:")
